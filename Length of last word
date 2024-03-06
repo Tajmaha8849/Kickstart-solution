@@ -3,7 +3,28 @@ Given a string s consisting of words and spaces, return the length of the last w
 A word is a maximal 
 substring
  consisting of non-space characters only.
+"""
+Accepted
+Shubham Prajapati 
+Shubham Prajapati
+submitted at Mar 06, 2024 18:37
 
+Editorial
+
+Solution
+Runtime
+26
+ms
+Beats
+96.12%
+of users with Python3
+Memory
+16.56
+MB
+Beats
+86.74%
+of users with Python3
+"""
 
 
 class Solution:
@@ -25,3 +46,11 @@ class Solution:
             else:
                 count+=1
         return count
+
+"""
+short answer
+str="luffy is   "
+l=str.split()
+print(len(l[-1]))
+
+"""
