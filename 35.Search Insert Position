@@ -1,0 +1,44 @@
+35.Search Insert Position
+Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
+You must write an algorithm with O(log n) runtime complexity.
+
+
+Accepted
+Shubham Prajapati 
+Shubham Prajapati
+submitted at Mar 06, 2024 17:54
+
+Editorial
+
+Solution
+Runtime
+47
+ms
+Beats
+74.55%
+of users with Python3
+Memory
+17.38
+MB
+Beats
+61.59%
+of users with Python3
+
+
+
+class Solution:
+    def searchInsert(self, nums: List[int], target: int) -> int:
+        for i in range(len(nums)):
+            if target==nums[i]:
+                return i
+                break
+            elif nums[i]>target:
+                return i
+                break
+            
+        return len(nums)
+                
+                 
+        
+            
