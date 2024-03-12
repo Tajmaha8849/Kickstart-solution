@@ -1,0 +1,24 @@
+3 sum
+
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 12 17:39:55 2024
+
+@author: shubh
+"""
+nums=[-1,0,1,2,-1,-4]
+temp=[[i,j,k] for i in nums for j in nums for k in nums if i!=j!=k ]
+nums.clear()
+for rows in temp:
+    if sum(rows)==0:
+        rows.sort()
+        if rows not in nums:            
+            nums.extend([rows])
+
+    
+    
+    
+        
+print(nums)
+
+    
