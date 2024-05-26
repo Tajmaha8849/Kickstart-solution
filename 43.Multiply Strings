@@ -1,0 +1,27 @@
+
+43.Multiply Strings
+Accepted
+Shubham Prajapati 
+Shubham Prajapati
+submitted at May 26, 2024 17:00
+
+Editorial
+
+Solution
+Runtime
+38
+ms
+Beats
+71.80%
+of users with Python3
+Memory
+16.30
+MB
+Beats
+99.94%
+of users with Python3
+
+class Solution:
+    def multiply(self, num1: str, num2: str) -> str:
+        return str(int(num1)*int(num2))
+        
