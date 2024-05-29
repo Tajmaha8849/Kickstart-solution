@@ -1,0 +1,31 @@
+
+
+1732.Find the Highest altitude
+
+Accepted
+Shubham Prajapati 
+Shubham Prajapati
+submitted at May 29, 2024 15:37
+
+Editorial
+
+Solution
+Runtime
+40
+ms
+Beats
+44.78%
+of users with Python3
+Memory
+16.40
+MB
+Beats
+99.17%
+of users with Python3
+
+class Solution:
+    def largestAltitude(self, gain: List[int]) -> int:
+        temp=[0]
+        for i in range(len(gain)):
+            temp.append(temp[i]+gain[i])
+        return max(temp)
