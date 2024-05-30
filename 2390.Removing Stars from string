@@ -1,0 +1,39 @@
+
+2390.Removing Stars from string
+
+Accepted
+Shubham Prajapati 
+Shubham Prajapati
+submitted at May 30, 2024 17:00
+
+Editorial
+
+Solution
+Runtime
+123
+ms
+Beats
+90.23%
+of users with Python3
+Memory
+18.33
+MB
+Beats
+24.19%
+of users with Python3
+class Solution:
+    def removeStars(self, s: str) -> str:
+        temp=[]
+        
+        for ch in s:
+            if ch=="*":
+                temp.pop()
+            else:
+                
+                temp.append(ch)
+                
+                
+                
+        
+        return "".join(temp)
+        
