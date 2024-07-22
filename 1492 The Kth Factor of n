@@ -3,7 +3,25 @@ You are given two positive integers n and k. A factor of an integer n is defined
 
 Consider a list of all factors of n sorted in ascending order, return the kth factor in this list or return -1 if n has less than k factors.
 
- 
+ Accepted
+Shubham Prajapati 
+Shubham Prajapati
+submitted at Jul 22, 2024 14:10
+
+Solution
+Runtime
+27
+ms
+Beats
+96.32%
+Analyze Complexity
+Memory
+16.59
+MB
+Beats
+39.69%
+Analyze Complexity
+
 
 Example 1:
 
